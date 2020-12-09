@@ -1,0 +1,84 @@
+body {
+    background: rgb(9,237,100);
+  background: linear-gradient(90deg, rgba(9,237,100,0.8046568969384629) 0%, rgba(79,134,214,0.9699230033810399) 5%, rgba(100,12,66,1) 15%, rgba(100,33,133,1) 25%, rgba(28,28,202,1) 35%, rgba(63,173,28,1) 39%, rgba(156,201,198,1) 50%, rgba(224,2,2,1) 68%, rgba(3,150,214,1) 80%, rgba(233,255,7,1) 93%, rgba(0,212,255,1) 100%);
+  }
+  .body {
+    background-image:url(background.png);
+    height:722.4px;
+    width:1518px;
+    margin-left:-7.62px;
+    margin-bottom:-20px;
+  }
+  .Rick {
+    width:110px;
+    text-align:center;
+    display:block;
+    margin-right:700px;
+    margin-left:auto;
+    border-radius:100px;
+  }
+  h1 {
+    text-align:center;
+    font-size:40px;
+    font-family: 'Lobster', cursive;
+    color: rgb(255,183,105);
+    color: linear-gradient(90deg, rgba(255,183,105,1) 31%, rgba(255,255,255,1) 100%);
+  }
+  .link {
+    color:#28cfde;
+  }
+  .link:hover {
+    color:#ff8400;
+  }
+  .article {
+    font-family: 'Fredericka the Great', cursive;
+    font-size:30px;
+    color:#fbff9e;
+  }
+  p::selection {
+    background-color:#00ff55;
+    color:#ffffff;
+  }
+  .menu {
+    font-family: 'Fredericka the Great', cursive;
+      list-style: none;
+      font-family: fantasy;
+      top: 10px;
+      z-index: 10;
+      cursor: pointer;
+      margin-left: -30;
+  }
+  .links2 {
+    float: left;
+    color: aquamarine;
+    cursor: default;
+      padding-top: 5px;
+      padding-left: 9px;
+      padding-right: 9px;
+      padding-bottom: 5px;
+      font-family: 'Fredericka the Great', cursive;
+      font-size: 28px;
+  }
+  .collapsible:hover, .links2:hover {
+      background-color: blanchedalmond;
+      color: rgb(50, 82, 72);
+  }
+  .collapsible {
+
+    height:40px;
+    width:106px;
+    opacity:1;
+        font-family: 'Fredericka the Great', cursive;
+      font-size: 28px;
+    color: aquamarine;
+    background-color:transparent;
+    border-width:0px;
+  }
+  #col{
+    opacity:0;
+  }
+  .credits {
+    color:#00d4fa;
+          font-family: 'Fredericka the Great', cursive;
+    font-size:30px;
+  }
