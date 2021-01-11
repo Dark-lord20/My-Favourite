@@ -77,7 +77,7 @@ body {
     border-width:0px;
   }
   #col{
-    opacity:1;
+    opacity:1;/*comment*/
   }
   .credits {
     color:#00d4fa;
