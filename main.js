@@ -1,9 +1,9 @@
 function collaps(){
-    if (document.getElementById("col").innerHTML==""){
+    if (document.getElementById("sources").innerHTML==""){
       console.log("hello world");
-      document.getElementById("col").innerHTML='<br><a href="https://www.google.com/search?q=rick+riordan&safe=active&sxsrf=ALeKk00ScwxoXhLVg5vgvoZJY1h6sZgefA:1607425742323&tbm=isch&source=iu&ictx=1&fir=t7AqKH-TCUTqTM%252Ch7w_LsAacFUJ3M%252C_&vet=1&usg=AI4_-kSmBG7xpod4KpzVvD6LRX96FmvfNQ&sa=X&ved=2ahUKEwjds_7Cn77tAhUHzjgGHXCdDbcQ_h16BAguEAE#imgrc=t7AqKH-TCUTqTM" class="article link">Rick Riordan image</a><br><a href="https://fonts.google.com/specimen/Fredericka+the+Great" class="article link">Fredericka the Great Font</a><br><a href="https://fonts.google.com/specimen/Lobster" class="article link">Lobster Font</a>';
+      document.getElementById("sources").innerHTML='<br><a href="https://www.google.com/search?q=rick+riordan&safe=active&sxsrf=ALeKk00ScwxoXhLVg5vgvoZJY1h6sZgefA:1607425742323&tbm=isch&source=iu&ictx=1&fir=t7AqKH-TCUTqTM%252Ch7w_LsAacFUJ3M%252C_&vet=1&usg=AI4_-kSmBG7xpod4KpzVvD6LRX96FmvfNQ&sa=X&ved=2ahUKEwjds_7Cn77tAhUHzjgGHXCdDbcQ_h16BAguEAE#imgrc=t7AqKH-TCUTqTM" class="article link">Rick Riordan image</a><br><a href="https://fonts.google.com/specimen/Fredericka+the+Great" class="article link">Fredericka the Great Font</a><br><a href="https://fonts.google.com/specimen/Lobster" class="article link">Lobster Font</a><br><a href="https://www.google.com/search?safe=active&sxsrf=ALeKk01PIYVN7h1ndAgwaVJPkxRdK4i-1Q:1610974978938&q=poseidon+trident+greek+mythology&tbm=isch&source=iu&ictx=1&tbs=simg:CAESlQIJRo6vDlW7IXcaiQILELCMpwgaYQpfCAMSJ4ILhAuIHu8V6hUWhwuJHu4VgQu0N-oo5SHnKOgoqCS1N6Q3szetNxow0GXrpOb3XTEE0Xb9flgrELvltjaM7Ytsrx_1yQK_1p_1qichHgxDvDQlfhe7_1sf0AYpIAQMCxCOrv4IGgoKCAgBEgTU7gW_1DAsQne3BCRqCAQodCgpjZyBhcnR3b3Jr2qWI9gMLCgkvbS8wMnR4MWsKGQoGc3Vuc2V02qWI9gMLCgkvbS8wMWIydzUKFAoDYXJ02qWI9gMJCgcvbS8wamp3ChcKBW9jZWFu2qWI9gMKCggvbS8wNWtxNAoXCgRyb2Nr2qWI9gMLCgkvbS8wMWNienEM&fir=82JDUKGEeXNpxM%252CDteBTz1i1oJleM%252C_&vet=1&usg=AI4_-kRVeHJeMmpu0PApzvlAu9U1QxxiEg&sa=X&ved=2ahUKEwiH8vG6xaXuAhXbxDgGHS68B6cQ9QF6BAgSEAE&biw=1536&bih=722#imgrc=82JDUKGEeXNpxM" class="article link">Trident image</a>';
     }
     else {
-      document.getElementById("col").innerHTML="";
+      document.getElementById("sources").innerHTML="";
     }
   }

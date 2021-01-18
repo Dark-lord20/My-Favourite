@@ -4,19 +4,24 @@ body {
   background: linear-gradient(90deg, rgba(9,237,100,0.8046568969384629) 0%, rgba(79,134,214,0.9699230033810399) 5%, rgba(100,12,66,1) 15%, rgba(100,33,133,1) 25%, rgba(28,28,202,1) 35%, rgba(63,173,28,1) 39%, rgba(156,201,198,1) 50%, rgba(224,2,2,1) 68%, rgba(3,150,214,1) 80%, rgba(233,255,7,1) 93%, rgba(0,212,255,1) 100%);
   }
   .body {
-    background-image:url(background.png);
+    background-image:url("background.png");
     height:722.4px;
     width:1518px;
     margin-left:-7.62px;
     margin-bottom:-20px;
   }
   .Rick {
+    transition: transform .30s;
     width:110px;
     text-align:center;
     display:block;
     margin-right:700px;
     margin-left:auto;
     border-radius:100px;
+    
+  }
+  .Rick:hover{
+    transform: scale(1.2);
   }
   h1 {
     text-align:center;
@@ -52,6 +57,7 @@ body {
   }
   .links2 {
     float: left;
+    transition: transform .30s;
     color: aquamarine;
     cursor: pointer;
       padding-top: 5px;
@@ -60,10 +66,12 @@ body {
       padding-bottom: 5px;
       font-family: 'Fredericka the Great', cursive;
       font-size: 28px;
+      
   }
   .collapsible:hover, .links2:hover {
       background-color: blanchedalmond;
       color: rgb(50, 82, 72);
+      transform: scale(1.2);
   }
   .collapsible {
     position: fixed;
@@ -75,6 +83,7 @@ body {
     color: aquamarine;
     background-color:transparent;
     border-width:0px;
+    transition: transform .30s;
   }
   #col{
     opacity:1;/*comment*/
